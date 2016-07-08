@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+       <!--  <link rel="stylesheet" href="assets/css/style.css" /> -->
+         <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/Chart.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+
+    <style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+body {
+	background-color: #130606;
+	min-width: 39cm;
+}
+
+#header {
+	text-align: left;
+	font-size: 2cm;
+	width: 15cm;
+	margin: 50px auto auto 20px;
+    line-height: 125%;
+	font-weight: 500;
+}
+
+#w {
+	background-color: #391313;
+	padding: 15px;
+}
+
+#w h3 {
+	font-size: 30px;
+	color: #df9f9f;
+}
+
+#threepics {
+	width: 95%;
+	margin: 0 auto;
+	max-width: 40cm;
+	text-align: center;
+	background-color: #130606;
+}
+
+.col-lg-4 {
+	max-width: 13cm;
+	margin: 0 auto;
+}
+
+.col-lg-4 img {
+	height: 7.5cm;
+}
+
+#threepics button {
+	position: relative;
+	top: -52px;
+	font-size: 20px;
+	width: 10cm;
+	border-radius: 0;
+	margin: 0;
+	padding: 12px 0;
+	border: none;
+	outline: none;
+	background-color: #e6f2ff;
+	color: black;
+	opacity: 0.5;
+}
+
+#threepics button:hover {
+	opacity: 1;
+}
+
+#threepics h1 {
+	position: relative;
+	top: -52px;
+	font-size: 28px;
+	width: 10cm;
+	margin: 0 auto;
+	padding: 12px 0;
+	background-color: #800000;
+	color: white;
+}
+
+#b {
+	background-color: #130606;
+}
+
+.col-lg-8 {
+	overflow: auto;
+	width: 200px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+}
+
+.social-icons {
+	list-style-type: none;
+	float: right;
+}
+
+.social-icons li {
+	float: right;
+	padding-right: 20px;
+}
+</style>
+    </head>
+    
+    
+<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+         <!-- Menu -->
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <h1 class="logo"><a href="index.html#home">Eatright</a></h1>
+            <i class="icon-remove menu-close"></i>
+            <a href="#home" class="smoothScroll">Home</a>
+            <a href="#about" class="smoothScroll">About</a>
+            <a href="#user_trail" class="smoothScroll">User_Trail</a>
+            <a href="#contact" class="smoothScroll">Contact</a>
+            <a href="#diet_plan" class="smoothScroll">Diet_Plan</a>
+            <a href="#nutritional_info" class="smoothScroll">Nutritional_info</a>
+            <a href="#balance" class="smoothScroll">Balance</a>
+            <a href="signin.php" class="smoothScroll">Login</a>
+            <a href="#"><i class="icon-facebook"></i></a>
+            <a href="#"><i class="icon-twitter"></i></a>
+            <a href="#"><i class="icon-dribbble"></i></a>
+            <a href="#"><i class="icon-envelope"></i></a>
+        </div>
+        
+        <!-- Menu button -->
+        <div id="menuToggle"><i class="icon-reorder"></i></div>
+    </nav>
+
+        <!-- ========== HEADER SECTION ========== -->
+    <section id="home" name="home"></section>
+    <div id="nutriinfowrap">
+        <div class="container">
+            <br>
+            <h1 id="header" style="color:white";><b>NUTRITION INFORMATION</b> FOR YOUR CAMPUS</h1>
+            <br>
+            <br>
+            <div class="row">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-lg-6 col-lg-offset-3">
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /headerwrap -->
+
+    <!-- ========== WHITE SECTION ========== -->
+    <div id="w">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 col-lg-offset-0">
+					<h3>WELCOME TO <bold style="color:#f9ecec">EATRIGHT</bold>. <bold style="color:#f9ecec">AN INNOVATION</bold> APP FOR OUR <bold style="color:#f9ecec">HEALTH</bold>
+					</h3>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /w -->
+       
+	<div id="threepics">
+		<div class="col-lg-4">
+			<img src="http://eatrightapp.weebly.com/uploads/6/3/0/7/63070951/beautiful-summer-2012-grass-1920x1200-97089.jpg?418" />
+			<button class="button button2">Province & States</button>
+			<h1>Province & States</h1>
+		</div>
+		<div class="col-lg-4">
+			<img src="http://eatrightapp.weebly.com/uploads/6/3/0/7/63070951/campus-mall.jpg?420" alt="" />
+			<button class="button button2">University & College</button>
+			<h1>University & College</h1>
+		</div>
+		<div class="col-lg-4">
+			<img src="http://eatrightapp.weebly.com/uploads/6/3/0/7/63070951/635752491370690930342441698-new-food-options_orig.jpg" alt="" style="width:420px;height:280px;" />
+			<button class="button button2">Restaurant & Dinning hall</button>
+			<h1>Restaurant & Dinning hall</h1>
+		</div>
+	</div>
+
+
+        <!-- ========== FOOTER SECTION ========== -->
+    <!-- Footer start -->
+    <footer>
+    <div id="b">
+		<div class="col-lg-8 col-lg-offset-2">
+			<ul class="social-icons">
+				<li><a href="index.html#"><i class="icon-facebook" style="color:white"></i></a></li>
+				<li><a href="index.html#"><i class="icon-twitter" style="color:white"></i></a></li>
+				<li><a href="index.html#"><i class="icon-envelope" style="color:white"></i></a></li>
+			</ul>
+		</div>
+    </div>
+    </footer>
+    <!-- Footer end  -->
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
+        
+
